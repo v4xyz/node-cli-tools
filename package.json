@@ -1,0 +1,22 @@
+{
+  "name": "cli-tools",
+  "version": "0.0.1",
+  "description": "cli tools for daily using.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v4xyz/node-cli-tools.git"
+  },
+  "keywords": [
+    "node-cli-tools"
+  ],
+  "author": "v4xyz@126.com",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/v4xyz/node-cli-tools/issues"
+  },
+  "homepage": "https://github.com/v4xyz/node-cli-tools#readme"
+}
