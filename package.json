@@ -1,8 +1,8 @@
 {
-  "name": "cli-tools",
+  "name": "node-cli-tools",
   "version": "0.0.1",
   "description": "cli tools for daily using.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "npm test"
   },

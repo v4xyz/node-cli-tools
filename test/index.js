@@ -9,6 +9,7 @@ const getPm2Cmd = (serviceName) => {
  * 程序入口
  */
 (async function () {
+  console.log(process.argv)
   const cmd = getPm2Cmd(getCliParam('name'))
   const result = await execCmd(cmd)
 

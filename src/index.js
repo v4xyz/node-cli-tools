@@ -4,7 +4,6 @@ const { exec } = require('child_process')
 
 // 获取cli命令传递的参数
 const getCliParam = (() => {
-  console.log(process.argv)
   const args = process.argv.slice(1)
   const argsObj = args.reduce((acc, item) => {
     const [key, value] = item.split('=')
